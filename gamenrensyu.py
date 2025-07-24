@@ -22,7 +22,7 @@ def main():
         screen.blit(enemy_resize, (1000 / 2 - enemy_resize.get_width() / 2, 700 / 2 - 300))
 
         font = pygame.font.Font("./font/DragonQuestFC.ttf", 30)
-        message = font.render("ムサシがあらわれた", True, (255, 255, 255))
+        message = font.render("ムサシがあらわれた!", True, (255, 255, 255))
         attack_text = font.render("こうげき", True, (255, 255, 255))
         bloc_text = font.render("まもる", True, (255, 255, 255))
         magic_text = font.render("まほう", True, (255, 255, 255))
